@@ -1,0 +1,13 @@
+.sid_button_outter {
+    margin: 1.2rem auto;
+    width: 24rem;
+    min-width: 80px;
+}
+
+.sid_button_red {
+    color: red;
+}
+
+.sid_form {
+    padding: 1.2rem 2.7rem;
+}

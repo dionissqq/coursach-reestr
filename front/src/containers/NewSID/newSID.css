@@ -1,0 +1,20 @@
+.notfound_home_button_outter {
+    margin: 3vh auto;
+    width: 24rem;
+    min-width: 80px;
+}
+
+.notfound_container {
+    font-size: large;
+    line-height: 1.6;
+    font-weight: 300;
+    text-align: center;
+    width : 95vw;
+    max-width: 27rem;
+}
+
+@media (max-width: 1024px) {
+    .notfound_label {
+        font-size: 1.8rem;
+    }
+}

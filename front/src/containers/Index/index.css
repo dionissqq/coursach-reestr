@@ -1,0 +1,65 @@
+#main_box {
+    margin-top: 8vh;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 100%;
+}
+
+#welcome_label {
+    letter-spacing: 6px;
+}
+
+#main_logo {
+    text-align: center;
+    margin: 4vh 4vw;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+}
+
+#info {
+    margin : 0 6vw;
+    margin-bottom : 8vh;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+}
+
+#index_search_field {
+    font-size: 1.6rem;
+    height: 2.2rem;
+    flex: 1;
+}
+
+#index_search_submit {
+    align-self : center;
+    margin-left: calc(0.4rem + 1%);
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+#index_search_form {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.sth {
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.selectorBox {
+    margin: 2vh auto;
+}
+
+@media (max-width: 1024px) {
+    #main_box {
+        margin-top: 6vh;
+        font-size: 1rem;
+    }
+
+    #main_logo {
+        margin: 4vh 0;
+        font-size: 3.2rem;
+    }
+}

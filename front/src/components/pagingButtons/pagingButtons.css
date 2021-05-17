@@ -1,0 +1,27 @@
+#pagingButtonsContainer {
+    font-weight : 300;
+    font-size : 1.4rem;
+    text-align : center;
+}
+
+#pageSelector {
+    width : 2.7rem;
+}
+
+.arrow_button {
+    height: 1.6rem;
+    width: 1.6rem;
+    text-align: center;
+    margin-left : 4%;
+    margin-right : 4%;
+    padding: 1%;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.arrow_button:hover {
+    transition: all 200ms ease;
+    background-color: rgb(232, 232, 232);
+}

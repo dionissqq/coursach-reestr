@@ -1,0 +1,98 @@
+.form_input {
+    width: 94%;
+    height : 2.4rem;
+    font-size: 1.6rem;
+    margin-top: 2vh;
+    line-height: 150%;
+    resize: none;
+}
+
+.form_selector {
+    width : 100%;
+    margin-top : 2vh;
+    font-size : 3vmin;
+}
+
+.form_datepicker {
+    border : 0;
+    margin-top: 2vh;
+    max-width: 11rem;
+    padding : .9rem .8rem;
+    border-radius: .8rem;
+}
+
+.form_footer {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight : 300;
+    margin: 4vh 0;
+    margin-bottom: 2.7vh;
+}
+
+.form {
+    margin: 0 auto;
+    max-width: 36rem;
+    width : 90vw;
+    overflow: hidden;
+    padding: 1vh calc(.5rem + 1vw);
+    padding-top : 0;
+}
+
+.form_info {
+    margin: 0 auto;
+    max-width: 36rem;
+    width : 90vw;
+    margin-bottom: 2vh;
+    overflow: hidden;
+    padding: 0 calc(.5rem + 1vw);
+}
+
+.form_info_text {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.form_red {
+    color: red;
+}
+
+.form_green {
+    color: green;
+}
+
+.form_legend {
+    font-size: 2.7rem;
+    margin-top: 4vh;
+    margin-bottom: 2.7%;
+}
+
+.form_text_area {
+    vertical-align: top;
+    height: 8rem;
+}
+
+.form_inputs_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form_inline {
+    margin-left : 0;
+    margin-right : .8rem;
+    flex-basis: calc(50% - 1.6rem);
+    flex-grow: 1;
+}
+
+.form_button_outter {
+    margin: 3vh auto;
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .form_legend {
+        font-size: 2rem;
+        margin-top: 4vh;
+        margin-bottom: 2%;
+    }
+}

@@ -1,0 +1,17 @@
+#user_search_field {
+    font-size: 1.6rem;
+    height: 2.2rem;
+    min-width: 0;
+    flex: 1;
+}
+
+#user_search_submit {
+    align-self : center;
+    margin-left: calc(0.4rem + 1%);
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+#user_search_form {
+    display: flex;   
+}
